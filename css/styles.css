@@ -1,0 +1,139 @@
+/*---------------------------------------------------- 	General------------------------------------------------------*/
+body {
+	font-family:'Josefin Sans',sans-serif;
+	font-size:16px;
+	line-height:1.7;
+	color:#777;
+	font-weight:400;
+	overflow-x:hidden;
+}
+h1,h2,h3,h4,h5,h6 {
+	color:#333;
+	line-height:1.4;
+	font-weight:700;
+}
+a,a:hover {
+	color:#5f26b9;
+	text-decoration: none;
+}
+img {max-width: 100%;}
+/*---------------------------------------------------- 	Menu------------------------------------------------------*/
+.isFixed {
+	left:0px;
+	width:100%;
+}
+.menu {
+	 margin-top:0px;
+	 position:absolute;
+	 z-index:999;
+	 margin-top:20px;
+	 left:0px;
+	 right:0px;
+	 bottom:0;
+}
+
+.navArea {
+	/*float:right;*/
+}
+.navwrapper .container {
+	padding:0;
+	width:auto;
+}
+.navbar-header {
+	display:none;
+}
+.nav>li>a {
+	display:inline-block;
+}
+.navbar-nav>li {
+	float:none;
+	display:inline-block;
+}
+.navbar-nav {
+	margin:0 auto;
+	text-align:center;
+	float:none;
+}
+.navbar-toggle {
+	margin-top: 14px;
+}
+/* Special class on .container surrounding .navbar,used for positioning it into place. */
+.navbar-wrapper {
+	margin-top:0px;
+	height:80px;
+	position:relative;
+	z-index:15;
+}
+.navbar-wrapper .container {
+	padding:0px;
+}
+.navbar-collapse {
+	padding:0;
+}
+.navbar-collapse.in {
+	max-height:100%;
+}
+.navbar.navbar-inverse.navbar-static-top {
+	margin:0px auto;
+	background:none;
+	color:#c3c8d6;
+	border:none;
+	font-family:'Libre Baskerville',sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+.navbar.navbar-inverse.navbar-static-top a {
+	color:#fff;
+	padding:31px 16px;
+	line-height:18px;
+	text-align:center;
+}
+.navbar.navbar-inverse.navbar-static-top a:hover {
+	background:none;
+	color:#fff;
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus {
+	background:none;
+	color:#fff !important;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+	color:#fff;
+}
+.hideClass {
+	display:none;
+}
+.isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus {
+	background:#cc580c;
+	color:#fff;
+}
+.isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
+	background:#cc580c;
+	color:#fff;
+}
+.isFixed .navbar.navbar-inverse.navbar-static-top a {
+	color:#fff;
+}
+.stuckMenu {
+	-o-transition:all .5s;
+	-ms-transition:all .5s;
+	-moz-transition:all .5s;
+	-webkit-transition:all .5s;
+	transition:all .5s;
+		background:#111;
+}
+.isFixed {
+	background:#333;
+		-o-transition:all .5s;
+	-ms-transition:all .5s;
+	-moz-transition:all .5s;
+	-webkit-transition:all .5s;
+	transition: all .5s;
+}
+.collapse {
+	display: block !important;
+}
+@media (max-width: 655px) {
+	.collapse {background: #333;}
+	.navbar.navbar-inverse.navbar-static-top a {padding: 15px 16px;line-height: 15px;font-size: 13px;}
+}
