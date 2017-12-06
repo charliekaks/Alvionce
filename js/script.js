@@ -44,3 +44,14 @@
       $(window).resize(function() {
         $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
     });
+    function initMap() {
+        var alvionce = {lat: 1.28352, lng: 36.8238 }; 
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: alvionce
+        });
+        var marker = new google.maps.Marker({
+          position: alvionce,
+          map: map
+        });
+      }

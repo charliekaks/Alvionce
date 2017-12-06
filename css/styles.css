@@ -10,6 +10,10 @@ body {
 .marg{
 	margin-top: 130px;
 }
+#map {
+    height: 400px;
+    width: 100%;
+   }
 .navbar{
 	padding-left: 10px;
 	padding-right: 10px;
